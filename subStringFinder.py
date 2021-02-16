@@ -58,4 +58,7 @@ def titleFinder(data):
     possiblesTitles = ["Payments for Termination for Good Reason or Other Than For Cause – Following a Change in Control",
                        "Change of Control Severance Plan/Performance Share Award Agreements"]
 
-    beggining_text_index = s.index(beggining_text) + len(beggining_text)
+    # beggining_text_index = s.index(beggining_text) + len(beggining_text)
+
+    # tableOpening = "<TABLE"
+    # tableClosure = "</TABLE>"

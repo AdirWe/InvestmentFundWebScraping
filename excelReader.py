@@ -1,5 +1,5 @@
 # import tkinter as tk
-from tkinter import filedialog
+# from tkinter import filedialog
 import pandas as pd
 
 # root = tk.Tk()
@@ -38,9 +38,14 @@ def readExcel(path, requeredSheet, columns):
 
 def main():
     print("hereee - ExcelReader")
-    data = readExcel('C:/Users/adirwe/Desktop/seminaryon/companiesData.xlsx',
+    data = readExcel('C:/Users/adirwe/Desktop/companiesData.xlsx',
                      'companies', ["Date Announced", "Target Name", "Target Primary Ticker Symbol"])
-    print(data)
+    data_length = len(data)
+    print(data_length)
+
+    # for i in range(data_length):
+    #     print(data["Target Name"][i])
+
     # data2 = readExcel('C:/Users/adirwe/Desktop/seminaryon/companiesData.xlsx',
     #                   'companies', [])
     # print(data2)
