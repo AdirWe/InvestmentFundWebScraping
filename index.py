@@ -1,5 +1,5 @@
 from subStringFinder import find_between, find_substring_only_after_given_string, find_substring_only_after_given_string_with_oppenings, tableFinder_after_begginingText
-from SECFileDownloader import get_data_fromURL_with_delay
+from fileDownloader import get_data_fromURL_with_delay
 from excelReader import readExcel
 from excelWriter import writeToExcel
 

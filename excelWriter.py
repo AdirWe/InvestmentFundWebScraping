@@ -1,7 +1,7 @@
 # import openpyxl
 from openpyxl import workbook  # pip install openpyxl
 from openpyxl import load_workbook
-from SECFileDownloader import get_mayafiles_htmlFIle, get_requiredData_from_htmlURL
+from fileDownloader import get_mayafiles_htmlFIle, get_requiredData_from_htmlURL
 
 
 def writeToExcel(linksArray, pageIndex):
